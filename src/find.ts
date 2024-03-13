@@ -18,9 +18,11 @@ const main = async () => {
     },
     select: {
       title: true,
+      content: true,
+      author: true,
     },
   });
 
-  console.log({ getAll });
+  console.log({ findUnique });
 };
 main();

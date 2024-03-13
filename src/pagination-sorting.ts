@@ -21,6 +21,6 @@ const paginationSorting = async () => {
       title: "Whispers of Wisdom",
     },
   });
-  console.log({ sortedData });
+  console.log({ offsetData });
 };
 paginationSorting();
